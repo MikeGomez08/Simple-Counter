@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.title {
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+}
+
+.counter h1 {
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.counter__output {
+  font-size: 0px;
+
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.control__btn {
+  font-size: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: #00FFAB ;
+  border-radius: 50%;
+  font-weight: 600;
+}
+.control__btn1 {
+  font-size: 40px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: #FF1E00;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.control__btn:hover {
+ zoom: scale(1.5);
+}
+
+.reset {
+  font-size: 30px;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border: 1px solid rgb(16, 0, 54);
+  border-radius: 10%;
+  background-color: #f8d700 ;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.save {
+  
+  font-size: 30px;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border: 1px solid rgb(16, 0, 54);
+  border-radius: 10%;
+  background-color: #f8d700 ;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+.save_container {
+    border:   1px solid;
+   flex-direction: column;
+   font-size: 20px;
+   font-family: 'Press Start 2P', cursive;
+}
+.savednum {
+  margin: 1%;
+  border: 1px solid;
+  float: left;
+}
